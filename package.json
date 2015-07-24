@@ -1,0 +1,18 @@
+{
+  "name": "broccoli-lion-and-mouse",
+  "version": "1.0.0",
+  "description": "An absurd little BroccoliJS filter. Builds result in two subfolders, 'LION' and 'mouse', each containing a full copy of the source directory, but with all .txt files converted to ALL UPPERCASE and all lowercase, respectively.",
+  "keywords": ["broccoli-plugin", "broccoli-filter", "demo", "uppercase", "lowercase", "pointless module"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Hogan",
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli": "^0.16.4",
+    "broccoli-filter": "^0.2.0",
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-merge-trees": "^0.2.2"
+  }
+}
